@@ -1,0 +1,108 @@
+object TheFrame4: TTheFrame4
+  Left = 0
+  Height = 481
+  Top = 0
+  Width = 675
+  ClientHeight = 481
+  ClientWidth = 675
+  TabOrder = 0
+  DesignLeft = 311
+  DesignTop = 101
+  object Chart1: TChart
+    Left = 192
+    Height = 481
+    Top = 0
+    Width = 296
+    AxisList = <    
+      item
+        Minors = <>
+        Title.LabelFont.Orientation = 900
+      end    
+      item
+        Alignment = calBottom
+        Minors = <>
+      end>
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clBlue
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Text.Strings = (
+      'TAChart'
+    )
+    Align = alClient
+    object EjeX: TConstantLine
+      Position = 0
+    end
+    object EjeY: TConstantLine
+      Position = 0
+    end
+    object PlotLine: TLineSeries
+    end
+    object Puntos: TLineSeries
+      LinePen.Style = psClear
+      ShowPoints = True
+    end
+  end
+  object ScrollBox1: TScrollBox
+    Left = 0
+    Height = 481
+    Top = 0
+    Width = 192
+    HorzScrollBar.Page = 1
+    VertScrollBar.Page = 1
+    Align = alLeft
+    TabOrder = 1
+  end
+  object Panel1: TPanel
+    Left = 488
+    Height = 481
+    Top = 0
+    Width = 187
+    Align = alRight
+    Caption = 'Panel1'
+    ClientHeight = 481
+    ClientWidth = 187
+    TabOrder = 2
+    object Edit1: TEdit
+      Left = 51
+      Height = 23
+      Top = 32
+      Width = 85
+      TabOrder = 0
+      Text = 'Edit1'
+    end
+    object Edit2: TEdit
+      Left = 52
+      Height = 23
+      Top = 64
+      Width = 84
+      TabOrder = 1
+      Text = 'Edit2'
+    end
+    object Edit3: TEdit
+      Left = 51
+      Height = 23
+      Top = 192
+      Width = 85
+      TabOrder = 2
+      Text = 'Edit3'
+    end
+    object ColorButton1: TColorButton
+      Left = 51
+      Height = 29
+      Top = 110
+      Width = 84
+      BorderWidth = 2
+      ButtonColorSize = 16
+      ButtonColor = clBlack
+    end
+    object TrackBar1: TTrackBar
+      Left = 42
+      Height = 27
+      Top = 149
+      Width = 102
+      Position = 0
+      TabOrder = 3
+    end
+  end
+end

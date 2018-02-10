@@ -1,0 +1,31 @@
+object TheFrame2: TTheFrame2
+  Left = 0
+  Height = 240
+  Top = 0
+  Width = 320
+  ClientHeight = 240
+  ClientWidth = 320
+  TabOrder = 0
+  DesignLeft = 475
+  DesignTop = 276
+  object Label1: TLabel
+    Left = 0
+    Height = 240
+    Top = 0
+    Width = 320
+    Align = alClient
+    Alignment = taCenter
+    Caption = 'FRAME 2'
+    Layout = tlCenter
+    ParentColor = False
+  end
+  object resta: TLabel
+    Left = 108
+    Height = 15
+    Top = 59
+    Width = 25
+    Caption = 'resta'
+    ParentColor = False
+    OnClick = restaClick
+  end
+end

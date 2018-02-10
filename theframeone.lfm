@@ -1,0 +1,45 @@
+object TheFrame1: TTheFrame1
+  Left = 0
+  Height = 502
+  Top = 0
+  Width = 841
+  ClientHeight = 502
+  ClientWidth = 841
+  TabOrder = 0
+  DesignLeft = 277
+  DesignTop = 152
+  object StringGrid1: TStringGrid
+    Left = 0
+    Height = 424
+    Top = 112
+    Width = 848
+    Align = alCustom
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    AutoFillColumns = True
+    FixedCols = 0
+    TabOrder = 0
+    ColWidths = (
+      168
+      168
+      168
+      168
+      172
+    )
+  end
+  object Label1: TLabel
+    Left = 258
+    Height = 39
+    Top = 35
+    Width = 300
+    Alignment = taCenter
+    Caption = 'Tabla de Métodos Numéricos'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -32
+    Font.Name = 'Brush Script MT'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsItalic]
+    ParentColor = False
+    ParentFont = False
+  end
+end
